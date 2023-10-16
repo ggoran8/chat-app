@@ -19,7 +19,7 @@ class Input extends Component {
 	render() {
 		return (
 			<div className='Input'>
-				<form onSubmit={(e) => this.onSubmit(e)}>
+				<form className='inputForm' onSubmit={(e) => this.onSubmit(e)}>
 					<input
 						className='inputText'
 						onChange={(e) => this.onChange(e)}
@@ -28,7 +28,7 @@ class Input extends Component {
 						placeholder='Enter your message and press ENTER/SEND'
 						autoFocus={true}
 					/>
-					<button>Send</button>
+					<button className='inputButton'>Send</button>
 				</form>
 			</div>
 		);

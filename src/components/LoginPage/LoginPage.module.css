@@ -1,0 +1,55 @@
+.login_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../../images/space.jpg');
+	background-size: cover;
+}
+
+.login_box {
+	border: 1px solid black;
+	padding: 32px;
+	background-color: rgba(142, 142, 142, 0.5);
+	width: 22vw;
+	height: 20vh;
+}
+
+.chat_app {
+	font-size: 32px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	padding-bottom: 8px;
+	margin-bottom: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.enter_name {
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 8px;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input_box {
+	padding: 5px 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 8px;
+	margin-left: 80px;
+}
+
+.button {
+	padding: 5px 10px;
+	font-size: 16px;
+	color: black;
+	border: none;
+	border-radius: 8px;
+	margin-left: 8px;
+}
