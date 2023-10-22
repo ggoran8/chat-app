@@ -17,7 +17,9 @@ code {
 	flex-direction: column;
 	justify-content: space-between;
 	height: 100vh;
-	background-image: url('./images/space.jpg');
+	background-image: url('./images/stardust.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	opacity: 0.98;
 }
 
@@ -115,14 +117,14 @@ code {
 	height: 60px;
 	font-size: 25px;
 	resize: none;
-	background-color: #ebaf60;
+	/* background-color: #ebaf60; */
 	padding-left: 8px;
 }
 
 .inputButton {
 	padding: 5px 10px;
 	font-size: 16px;
-	background-color: #ebaf60;
+	/* background-color: #ebaf60; */
 	color: black;
 	border: none;
 	border-radius: 8px;

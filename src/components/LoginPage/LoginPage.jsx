@@ -15,7 +15,7 @@ const LoginPage = ({ setName }) => {
 			<div className={styles.login_box}>
 				<div className={styles.chat_app}>Welcome to my chat app!</div>
 				<div className={styles.enter_name}>Please enter your chat name</div>
-				<form onSubmit={handleSubmit}>
+				<form className={styles.form} onSubmit={handleSubmit}>
 					<input
 						className={styles.input_box}
 						type='text'
