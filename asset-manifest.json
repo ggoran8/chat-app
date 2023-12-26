@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chat-app/static/css/main.69f9d508.css",
+    "main.js": "/chat-app/static/js/main.66f1d955.js",
+    "static/media/stardust.jpg": "/chat-app/static/media/stardust.efb5df162689fdd5757e.jpg",
+    "static/media/space.jpg": "/chat-app/static/media/space.3512be3c3581c761fe62.jpg",
+    "index.html": "/chat-app/index.html",
+    "main.69f9d508.css.map": "/chat-app/static/css/main.69f9d508.css.map",
+    "main.66f1d955.js.map": "/chat-app/static/js/main.66f1d955.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f9d508.css",
+    "static/js/main.66f1d955.js"
+  ]
+}
